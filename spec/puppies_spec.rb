@@ -6,8 +6,8 @@ describe "RACHEL'S ANIMALS" do
       expect(no_puppies(0)).to eq('Good job, Rachel!')
     end
 
-    it "tells Rachel to get back to her animal goals if she gets any puppies" do
-      expect(no_puppies(3)).to eq('Get back to your animal goals!')
+    it "tells Rachel to get back to her puppy goals if she gets any puppies" do
+      expect(no_puppies(3)).to eq('Get back to your puppy goals!')
     end
   end
 
@@ -21,7 +21,7 @@ describe "RACHEL'S ANIMALS" do
     end
 
     it "tells Rachel to get back to her animal goals if she gets more than 3 puppies" do
-      expect(less_puppies(4)).to eq('Get back to your animal goals!')
+      expect(less_puppies(4)).to eq('Go back to your animal goals!')
     end
   end
 
